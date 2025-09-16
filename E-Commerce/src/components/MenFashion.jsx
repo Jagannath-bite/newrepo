@@ -4,7 +4,7 @@ const MenFashion = () => {
   const firstFiveImages = menData.slice(0, 5);
   return (
     <>
-      <h2>Men fashion</h2>
+      <h2>Men and boy fashion</h2>
       <div className="proSection">
         {firstFiveImages.map((item) => {
           return (
